@@ -16,7 +16,7 @@ function Navigation({ currentPage, handlePageChange} ) {
             <div className="navbar-end">
                 
                 <a 
-                href="/"
+                href="#AboutMe"
                 onClick={() => handlePageChange('AboutMe')}
                 className="navbar-item has-text-black has-text-weight-bold"
 
@@ -25,7 +25,7 @@ function Navigation({ currentPage, handlePageChange} ) {
                 </a>
                 
                 <a 
-                href="/portfolio"
+                href="#Portfolio"
                 onClick={() => handlePageChange('Portfolio')}
                 className="navbar-item has-text-black has-text-weight-bold"
                 
@@ -34,7 +34,7 @@ function Navigation({ currentPage, handlePageChange} ) {
                 </a>
 
                 <a 
-                href="/contact"
+                href="#Contact"
                 onClick={() => handlePageChange('Contact')}
                 className="navbar-item has-text-black has-text-weight-bold" 
                 
