@@ -3,13 +3,14 @@ import SlitherIn from './public/slither-in.png'
 import NationalParksSearch from './public/national-park-search-main.png'
 import EmployeeManagementSystem from './public/employee-tracker-01.png'
 import WeatherDashboard from './public/weather-dashboard.png'
+import ECommerce from './public/e-commerce-01.png'
+import TextEditor from './public/text-editor-01.png'
 // import projects from './projects'
-
 
 const projects = [
     {
         id: 1,
-        name: "'Sliher-In', A Reptile Database",
+        name: "'Slither-In', A Reptile Database",
         deployedLink: "https://slither-in.herokuapp.com/",
         gitHubLink: "https://github.com/niccolosaurus/slither-in",
         image: SlitherIn
@@ -34,10 +35,22 @@ const projects = [
         deployedLink: "https://jaymoses01.github.io/hw-06-weather-dashboard/",
         gitHubLink: "https://github.com/JayMoses01/hw-06-weather-dashboard",
         image: WeatherDashboard
+    },
+    {
+        id: 5,
+        name: "E-Commerce Back End",
+        deployedLink: "https://drive.google.com/file/d/1AyOMqsmuYQW7FD5abH8GOHpN7rebVVki/view?usp=sharing",
+        gitHubLink: "https://github.com/JayMoses01/hw-13-e-commerce-back-end",
+        image: ECommerce
+    },
+    {
+        id: 6,
+        name: "Text Editor Web App",
+        deployedLink: "https://text-editor-web-app.herokuapp.com/",
+        gitHubLink: "https://github.com/JayMoses01/Text-Editor-Web-App",
+        image: TextEditor
     }
 ]
-
-
 
 export default function Project() {
     return (
@@ -64,8 +77,6 @@ export default function Project() {
                             ))}
 
                         </div>
-
-
                     </div>
                 </div>
             </section>

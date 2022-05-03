@@ -2,28 +2,47 @@ import React, { useState } from 'react';
 
 export default function Contact() {
     return (
-        <section class="section ml-0 has-background-grey-lighter">
-            <div class="container ml-0">
-                <div class="columns ml-0">
-                    <div class="column is-2 ml-0">
-                        <h2 class="has-text-weight-bold is-size-4" id="contact-me">Contact Me</h2>
-                    </div>
-                    <div class="column is-2 ml-0">
-                        <h3>760.815.8046</h3>
-                    </div>
-                    <div class="column is-3 ml-0">
-                        <a href="mailto:JayRMoses@gmail.com">JayRMoses@gmail.com</a>
-                    </div>
-                    <div class="column is-2 ml-0">
-                        <a href="https://github.com/JayMoses01">GitHub Profile</a>
-                    </div>
-                    <div class="column is-2 ml-0">
-                        <a href="https://www.linkedin.com/in/jaymoses">LinkedIn Profile</a>
-                    </div>
-                </div>
-            </div>
+<section className='px-6 py-6'>
 
-        </section>
+    <div className="field">
+    <label className="label">Name</label>
+    <div className="control">
+        <input className="input" type="text" placeholder="Text input"/>
+    </div>
+    </div>
+
+    <div className="field">
+    <label className="label">Email Address</label>
+    <div className="control has-icons-left has-icons-right">
+        <input className="input is-danger" type="email" placeholder="Email input" value=""/>
+        <span className="icon is-small is-left">
+        <i className="fas fa-envelope"></i>
+        </span>
+        <span className="icon is-small is-right">
+        <i className="fas fa-exclamation-triangle"></i>
+        </span>
+    </div>
+    <p className="help is-danger">This email is invalid</p>
+    </div>
+
+    <div className="field">
+    <label className="label">Message</label>
+    <div className="control">
+        <textarea className="textarea" placeholder="Textarea"></textarea>
+    </div>
+    </div>
+
+    <div className="field is-grouped">
+    <div className="control">
+        <button className="button is-link">Submit</button>
+    </div>
+    </div>
+
+
+
+</section>
+
+
     );
 }
 

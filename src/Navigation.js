@@ -43,7 +43,7 @@ function Navigation({ currentPage, handlePageChange} ) {
                 </a>
                 
                 <a 
-                href="public/JayMoses_Resume.docx"
+                href="#Resume"
                 onClick={() => handlePageChange('Resume')}
                 className="navbar-item has-text-black has-text-weight-bold"
                 

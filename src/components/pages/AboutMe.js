@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MePhoto from '../../public/me.jpeg'
 
 export default function AboutMe() {
     return (
@@ -15,7 +16,7 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <div className="column is-2 ml-0 box">
-                        <img src="./assets/me.jpeg" alt="Photo of Me" />
+                        <img src={MePhoto} alt="Photo of Me" />
                     </div>
                 </div>
             </div>

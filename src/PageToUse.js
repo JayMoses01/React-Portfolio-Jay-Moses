@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import Contact from './components/pages/Contact';
 import AboutMe from './components/pages/AboutMe';
 import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
 
 export default function PageToUse() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -16,9 +17,12 @@ export default function PageToUse() {
         if (currentPage === 'Portfolio') {
           return <Portfolio />;
         }
-        // if (currentPage === 'Contact') {
+        if (currentPage === 'Contact') {
           return <Contact />;
-        // }
+        }
+        if (currentPage === 'Resume') {
+          return <Resume />;
+        }
       };
   
   
