@@ -1,14 +1,10 @@
 // import logo from './logo.svg';
 import 'bulma/css/bulma.min.css';
 import Navigation from './Navigation';
-import Header from './Header';
+import Header from './components/Header';
 import Project from './Project';
 import Portfolio from './components/pages/Portfolio';
 import Footer from './components/Footer';
-
-
-
-
 
 function App() {
   return (

@@ -5,7 +5,6 @@ import EmployeeManagementSystem from './public/employee-tracker-01.png'
 import WeatherDashboard from './public/weather-dashboard.png'
 import ECommerce from './public/e-commerce-01.png'
 import TextEditor from './public/text-editor-01.png'
-// import projects from './projects'
 
 const projects = [
     {

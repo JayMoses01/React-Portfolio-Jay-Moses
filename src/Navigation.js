@@ -3,7 +3,7 @@ import Contact from './components/pages/Contact';
 import AboutMe from './components/pages/AboutMe';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
-import Header from './Header';
+import Header from './components/Header';
 
 export default function Navigation() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
