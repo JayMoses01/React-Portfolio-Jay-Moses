@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 function Header({ currentPage, handlePageChange} ) {
+    
     return (
         <nav className="navbar has-background-info-dark">
         <div className="navbar-brand">

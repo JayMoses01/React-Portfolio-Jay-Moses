@@ -31,7 +31,7 @@ export default function Resume() {
 
             <div className="container ml-0">
                 <div className="columns ml-0">
-                    <div className="column is-2 ml-0">
+                    <div className="column is-2 ml-0 my-4">
                         <h2 className="has-text-weight-bold is-size-4" id="skills">Resume</h2>
                     </div>
 
@@ -42,9 +42,9 @@ export default function Resume() {
 
                     </div> */}
 
-                    <div className="column is-2 ml-0 is-vcentered">
+                    <div className="column is-2 ml-0 is-vcentered my-4">
                         <a className="is-vcentered" href="./public/JayMoses_Resume.docx" download>
-                            Jay Moses
+                            Download Resume - Jay Moses
                         </a>
                     </div>
 
