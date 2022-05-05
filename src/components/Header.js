@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Header({ currentPage, handlePageChange} ) {
-    
+
     return (
         <nav className="navbar has-background-info-dark">
         <div className="navbar-brand">
@@ -20,7 +20,6 @@ function Header({ currentPage, handlePageChange} ) {
                 href="#AboutMe"
                 onClick={() => handlePageChange('AboutMe')}
                 className="navbar-item has-text-black has-text-weight-bold"
-
                 >
                     About Me
                 </a>
@@ -29,7 +28,6 @@ function Header({ currentPage, handlePageChange} ) {
                 href="#Portfolio"
                 onClick={() => handlePageChange('Portfolio')}
                 className="navbar-item has-text-black has-text-weight-bold"
-                
                 >
                     Portfolio
                 </a>
@@ -38,7 +36,6 @@ function Header({ currentPage, handlePageChange} ) {
                 href="#Contact"
                 onClick={() => handlePageChange('Contact')}
                 className="navbar-item has-text-black has-text-weight-bold" 
-                
                 >
                     Contact
                 </a>
@@ -47,7 +44,6 @@ function Header({ currentPage, handlePageChange} ) {
                 href="#Resume"
                 onClick={() => handlePageChange('Resume')}
                 className="navbar-item has-text-black has-text-weight-bold"
-                
                 >
                     Resume
                 </a>
