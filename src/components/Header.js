@@ -55,4 +55,3 @@ function Header({ currentPage, handlePageChange} ) {
 }
 
 export default Header;
-

@@ -8,7 +8,7 @@ This is an updated portfolio website showcasing my highlighted projects. This we
 
 ## Link to Deployed Application
 
-Link to deployed application:
+Link to deployed application: https://jaymoses01.github.io/react-portfolio-jay-moses/
 
 
 ## Screenshots of Application
@@ -29,7 +29,7 @@ This application was built using React.
 
 ## Contact information
 
-* Website: 
+* Website: https://jaymoses01.github.io/react-portfolio-jay-moses/
 * Email: JayRMoses@gmail.com
 
 
@@ -52,8 +52,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
-
