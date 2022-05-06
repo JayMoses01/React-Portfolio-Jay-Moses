@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SlitherIn from './public/slither-in.png'
 import NationalParksSearch from './public/national-park-search-main.png'
 import EmployeeManagementSystem from './public/employee-tracker-01.png'

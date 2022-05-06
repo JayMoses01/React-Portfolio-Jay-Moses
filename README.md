@@ -3,7 +3,7 @@
 
 ## Description
 
-I have updated my web development portfolio with more projects and with React.
+This is an updated portfolio website showcasing my highlighted projects. This website was built using React.
 
 
 ## Link to Deployed Application
@@ -13,16 +13,18 @@ Link to deployed application:
 
 ## Screenshots of Application
 
-![image](./assets/images/text-editor-01.png)
+![image](./src/public/react-portfolio-01.png)
+
+![image](./src/public/react-portfolio-02.png)
+
+![image](./src/public/react-portfolio-03.png)
+
+![image](./src/public/react-portfolio-04.png)
 
 
 ## Technologies Used
 
-This application utilizes these technologies:
-
-* Webpack
-* Babel
-* Express
+This application was built using React.
 
 
 ## Contact information

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import MePhoto from '../../public/me.jpeg'
 
 export default function AboutMe() {
