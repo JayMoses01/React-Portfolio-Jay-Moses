@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-jay-moses/static/css/main.7eff6252.css",
+    "main.js": "/react-portfolio-jay-moses/static/js/main.9c7741a8.js",
+    "static/media/national-park-search-main.png": "/react-portfolio-jay-moses/static/media/national-park-search-main.c83f01e16a4a5b98e877.png",
+    "static/media/e-commerce-01.png": "/react-portfolio-jay-moses/static/media/e-commerce-01.5498523e2e697f1c000d.png",
+    "static/media/slither-in.png": "/react-portfolio-jay-moses/static/media/slither-in.85129e98aa8a8d0bc443.png",
+    "static/media/me.jpeg": "/react-portfolio-jay-moses/static/media/me.4a9d7d577c29f7364452.jpeg",
+    "static/media/employee-tracker-01.png": "/react-portfolio-jay-moses/static/media/employee-tracker-01.800c2b808a36e20e07fd.png",
+    "static/media/weather-dashboard.png": "/react-portfolio-jay-moses/static/media/weather-dashboard.c3076ef3941a9f97fee3.png",
+    "static/media/JayMoses_Resume.docx": "/react-portfolio-jay-moses/static/media/JayMoses_Resume.8331aec4bab98f5c93fe.docx",
+    "static/media/text-editor-01.png": "/react-portfolio-jay-moses/static/media/text-editor-01.e494318c5786c9c1436e.png",
+    "index.html": "/react-portfolio-jay-moses/index.html",
+    "main.7eff6252.css.map": "/react-portfolio-jay-moses/static/css/main.7eff6252.css.map",
+    "main.9c7741a8.js.map": "/react-portfolio-jay-moses/static/js/main.9c7741a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eff6252.css",
+    "static/js/main.9c7741a8.js"
+  ]
+}
