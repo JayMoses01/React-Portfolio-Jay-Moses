@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumeDoc from '../../public/JayMoses_Resume.docx'
 
 export default function Resume() {
     return (
@@ -35,15 +36,8 @@ export default function Resume() {
                         <h2 className="has-text-weight-bold is-size-4" id="skills">Resume</h2>
                     </div>
 
-                    {/* <div className="content">
-                        <a className="has-text-black has-text-weight-bold" href="./public/JayMoses_Resume.docx">
-                            Jay Moses
-                        </a>
-
-                    </div> */}
-
                     <div className="column is-2 ml-0 is-vcentered my-4">
-                        <a className="is-vcentered" href="./public/JayMoses_Resume.docx" download>
+                        <a className="is-vcentered" href={ResumeDoc}>
                             Download Resume - Jay Moses
                         </a>
                     </div>

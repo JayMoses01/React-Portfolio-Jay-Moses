@@ -62,7 +62,7 @@ export default function Project() {
                             <h2 className="has-text-weight-bold is-size-4" id="work">Portfolio</h2>
                         </div>
 
-                        <div class="column is-10 ml-0 box">
+                        <div className="column is-10 ml-0 box">
                             {projects.map(item => (
                                 <div>
                                     <h3 className="pb-2 has-text-weight-bold" key={item.id}>{item.name}</h3>
